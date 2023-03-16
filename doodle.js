@@ -15,8 +15,8 @@ class Doodler {
         this.height = 100;
         this.vx = 0;
         this.vy = 0;
-        this.gravity = 0.04;
-        this.jumpStrength = -2.5;
+        this.gravity = 0.06;
+        this.jumpStrength = -3;
     }
 
     // function which updates the position of the 
