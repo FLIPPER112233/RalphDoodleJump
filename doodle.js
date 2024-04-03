@@ -85,12 +85,12 @@ class Doodler {
     }
 
     moveRight() {
-        this.vx += 2;
+        this.vx += 1; //was 2
         this.image.src = 'doodler-right.png';
     }
 
     moveLeft () {
-        this.vx -= 2;
+        this.vx -= 1; // was 2
         this.image.src = 'doodler-left.png';
     }
 
